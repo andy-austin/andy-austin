@@ -1,19 +1,8 @@
 # Hi there! 👋 I'm Andy Fernandez
 
-<div align="center">
-  <img src="https://img.shields.io/badge/-Software%20Engineer-blue?style=for-the-badge&logo=code&logoColor=white" alt="Software Engineer"/>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-</div>
-
 ---
 
-## 🚀 About Me
-
-**Breaking code, building features!** Software engineer passionate about coding, coffee, and road trips. Based in **Montevideo, Uruguay** 🇺🇾 (UTC -03:00).
-
-- 🔭 Currently working as **Senior Software Engineer** at [LoudCrowd](https://loudcrowd.com) and [Howdy.com](https://howdy.com)
+- 🔭 Currently working as **Senior Software Engineer** through [LoudCrowd](https://loudcrowd.com) and [Howdy.com](https://howdy.com)
 - 🌱 Building React applications, custom Shopify extensions, and Python backend services
 - 💬 I write technical articles on [Medium](https://medium.com/@afgarabote) and [ScalablePath](https://www.scalablepath.com)
 - 📍 Available for remote opportunities worldwide
@@ -50,7 +39,7 @@
 
 ## 💼 Current Role
 
-**Senior Software Engineer** at **LoudCrowd** & **Howdy.com**
+**Senior Software Engineer** at **LoudCrowd** through **Howdy.com**
 - 🔨 Building React web applications and custom Shopify extensions
 - 🐍 Developing Python backend services with AWS Lambda
 - 🌐 Creating native influencer storefronts using modern web components (Lit)
@@ -60,22 +49,10 @@
 ---
 
 ## 🏆 GitHub Achievements
-
-<div align="center">
   
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=andy-austin&show_icons=true&theme=default&hide_border=true&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=default&hide_border=true)
-
-</div>
-
-🏅 **Special Achievements:**
-- 🏆 Pair Extraordinaire (x3)
-- 🎯 YOLO
-- 🦈 Pull Shark (x3)
-- ⚡ Quickdraw
-
----
 
 ## 📚 Featured Projects & Articles
 
@@ -98,14 +75,6 @@
 - Comprehensive comparison of React state management solutions
 - Technical analysis of data flow patterns and implementation guidelines
 
-### 🚀 Professional Projects
-
-**Qubierto Collaboration Platform** - Enterprise platform connecting companies with skilled professionals
-**BiselMed Healthcare Platform** - HIPAA compliant medical software with security focus
-**Cuba VIP Travel Dashboard** - Travel booking and management system with real-time capabilities
-
----
-
 ## 📈 Experience Highlights
 
 - **6+ years** of software engineering experience
@@ -119,14 +88,10 @@
 
 ## 🤝 Let's Connect!
 
-<div align="center">
-  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/afgarabote)
 [![Medium](https://img.shields.io/badge/-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@afgarabote)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andy-austin)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afgarabote@gmail.com)
-
-</div>
 
 ---
 
