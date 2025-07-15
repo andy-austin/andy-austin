@@ -1,12 +1,31 @@
 export const metadata = {
-  title: 'Profile',
-  description: 'Personal profile website',
+  title: 'Andy Fernandez - Software Engineer',
+  description: 'Breaking code, building features! Software engineer passionate about coding, coffee, and road trips. Skilled in Python, React, and Cloud technologies.',
+  keywords: 'Andy Fernandez, Software Engineer, Python, React, TypeScript, Cloud, Montevideo, Uruguay',
+  authors: [{ name: 'Andy Fernandez' }],
+  creator: 'Andy Fernandez',
+  openGraph: {
+    title: 'Andy Fernandez - Software Engineer',
+    description: 'Breaking code, building features! Software engineer passionate about coding, coffee, and road trips.',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Andy Fernandez - Software Engineer',
+    description: 'Breaking code, building features! Software engineer passionate about coding, coffee, and road trips.',
+  },
 }
+
+import Script from 'next/script';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="antialiased">
+        <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
+        {children}
+      </body>
     </html>
   )
 }
