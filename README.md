@@ -1,10 +1,6 @@
 # Hi there! 👋 I'm Andy Fernandez
 
-<a target="_blank" href="https://www.buymeacoffee.com/afgarabote">
-  <img style="width: 90px;" class="bmc" alt="Buy Me A Coffee" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png">
-</a>
-
-&nbsp;
+![Profile Views](https://komarev.com/ghpvc/?username=andy-austin)
 
 🔭 Currently working as **Senior Software Engineer** at [LoudCrowd](https://loudcrowd.com) through [Howdy.com](https://howdy.com)
 
@@ -17,5 +13,3 @@
 &nbsp;
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=onedark)
-
-![Profile Views](https://komarev.com/ghpvc/?username=andy-austin)
