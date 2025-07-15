@@ -17,13 +17,16 @@ export const metadata = {
   },
 }
 
+import './globals.css';
 import Script from 'next/script';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <head>
         <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
+      </head>
+      <body className="antialiased">
         {children}
       </body>
     </html>

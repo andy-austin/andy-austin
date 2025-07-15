@@ -4,56 +4,86 @@ import Card from './Card';
 export default function Experience() {
   const experiences = [
     {
-      title: "Software Engineer",
-      company: "Howdy™",
-      period: "Current",
+      title: "Senior Software Engineer",
+      company: "LoudCrowd",
+      period: "Mar 2024 - Present",
+      location: "Montevideo, Uruguay · Remote",
+      description: "Full-time senior software engineer role focusing on React web applications and custom Shopify extensions for influencer marketing platform.",
+      highlights: [
+        "Maintained and extended a React JS web app and built custom Shopify extensions",
+        "Developed native influencer storefronts using modern web components (Lit)",
+        "Built and maintained Python backend services deployed via AWS Lambda",
+        "Designed and implemented ETL pipelines to ingest and normalize third-party data into LoudCrowd's core systems"
+      ],
+      skills: ["Python", "JavaScript", "Lit", "Cloud Computing", "AWS", "ETL"]
+    },
+    {
+      title: "Senior Software Engineer",
+      company: "Howdy.com",
+      period: "Feb 2021 - Present",
+      location: "Uruguay · Hybrid",
+      description: "Senior software engineer role with focus on microservice architecture and cloud platform development using Python and Google Cloud Platform.",
+      highlights: [
+        "Design microservice oriented architecture based on python",
+        "Work with many Google Cloud Platform solutions and tools",
+        "Develop REST & GraphQL API's using Django Rest Framework & Django Graphene",
+        "Build new software solutions from scratch"
+      ],
+      skills: ["Python", "JavaScript", "Microservices", "Kubernetes", "Web Components", "GraphQL", "REST APIs", "Google Cloud Platform"]
+    },
+    {
+      title: "Contract Software Engineer",
+      company: "Truepill",
+      period: "Feb 2022 - Oct 2022",
+      location: "Uruguay",
+      description: "Contract software engineering role through Austin Software as a Software consultant, working on healthcare technology solutions.",
+      highlights: [
+        "Working for Truepill through Austin Software as a Software consultant",
+        "Maintain various solutions written in Python and JavaScript (NodeJS, ReactJS)",
+        "Review pull requests as part of the development process",
+        "Working in an agile work environment guided by SCRUM"
+      ],
+      skills: ["Python", "JavaScript", "GraphQL", "REST APIs", "Node.js"]
+    },
+    {
+      title: "Contract Software Engineer",
+      company: "Scalable Path",
+      period: "Nov 2021 - May 2022",
       location: "Montevideo, Uruguay",
-      description: "Designing microservice-oriented architecture and developing scalable software solutions. Contributing to technical discussions about serverless architecture, microservices, and code quality best practices.",
+      description: "Part-time contract role working on data migration and analytics projects for BuzzFeed Media Company.",
       highlights: [
-        "Designed and implemented microservice-oriented architecture",
-        "Contributed to serverless architecture solutions",
-        "Mentored team members on code quality and best practices",
-        "Optimized system performance and scalability"
-      ]
+        "Migrate asynchronous services written in Python for BuzzFeed Media Company",
+        "Write SQL queries and materialized views for Google BigQuery",
+        "Analyze logs using Datadog in order to guarantee good performance"
+      ],
+      skills: ["Python", "Google Cloud Platform", "SQL", "Google BigQuery", "Datadog"]
     },
     {
-      title: "Software Developer",
-      company: "Qubierto",
-      period: "Previous",
-      location: "Remote",
-      description: "Developed enterprise collaboration platform helping companies find and connect with skilled professionals. Built scalable web applications using modern technologies.",
+      title: "Software Engineer",
+      company: "Ascentis Human Capital Management Software",
+      period: "Jul 2019 - Feb 2021",
+      location: "Montevideo, Uruguay",
+      description: "Full-time software engineer role developing user interfaces and supporting microservices for HR management platform.",
       highlights: [
-        "Developed enterprise collaboration platform",
-        "Built scalable web applications",
-        "Implemented user matching algorithms",
-        "Optimized database performance"
-      ]
+        "Develop user interfaces for Ascentis reporting module using ReactJS",
+        "Support Ascentis reporting micro-services written in Java & C#",
+        "Review and merge JavaScript code for new product features",
+        "Participate in behavioral interviews as part of hiring process"
+      ],
+      skills: ["JavaScript", "Microservices", "Docker", "React.js", "Java", "REST APIs"]
     },
     {
-      title: "Software Developer",
-      company: "BiselMed",
-      period: "Previous",
-      location: "Remote",
-      description: "Contributed to healthcare technology solutions, developing medical software applications with focus on user experience and data security.",
+      title: "Full Stack Software Engineer",
+      company: "TourinfoSys",
+      period: "Apr 2016 - Jan 2020",
+      location: "Havana, Cuba",
+      description: "Full-time full-stack developer role designing and developing tourism platforms and travel websites.",
       highlights: [
-        "Developed healthcare technology solutions",
-        "Implemented secure medical software applications",
-        "Focused on user experience and data security",
-        "Collaborated with medical professionals on requirements"
-      ]
-    },
-    {
-      title: "Software Developer",
-      company: "Cuba VIP Travel",
-      period: "Previous",
-      location: "Remote",
-      description: "Developed travel management dashboard and booking system. Created user-friendly interfaces for travel planning and management.",
-      highlights: [
-        "Built travel management dashboard",
-        "Developed booking system functionality",
-        "Created user-friendly travel planning interfaces",
-        "Integrated with external travel APIs"
-      ]
+        "Designed and Developed TourinfoSys platform",
+        "Developed Cuba VIP Yacht Web Site",
+        "Developed Cuba Tours and Travels Web Site"
+      ],
+      skills: ["Python", "JavaScript", "REST APIs"]
     }
   ];
 
@@ -68,7 +98,13 @@ export default function Experience() {
                   {exp.title}
                 </h3>
                 <p className="text-lg text-blue-600 font-medium mb-2">
-                  {exp.company}
+                  {exp.link ? (
+                    <a href={exp.link} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      {exp.company}
+                    </a>
+                  ) : (
+                    exp.company
+                  )}
                 </p>
                 <p className="text-gray-600 text-sm">
                   {exp.location}
@@ -85,7 +121,7 @@ export default function Experience() {
               {exp.description}
             </p>
             
-            <ul className="space-y-2">
+            <ul className="space-y-2 mb-4">
               {exp.highlights.map((highlight, idx) => (
                 <li key={idx} className="flex items-start text-gray-600">
                   <span className="text-blue-600 mr-2">•</span>
@@ -93,6 +129,19 @@ export default function Experience() {
                 </li>
               ))}
             </ul>
+            
+            {exp.skills && (
+              <div className="mt-4">
+                <span className="text-sm font-medium text-gray-700 mr-2">Skills:</span>
+                <div className="flex flex-wrap gap-2 mt-1">
+                  {exp.skills.map((skill, idx) => (
+                    <span key={idx} className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-blue-100 text-blue-800">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </Card>
         ))}
       </div>
