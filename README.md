@@ -9,7 +9,10 @@
 
 ---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=default&hide_border=true)
+![trophy](https://github-profile-trophy.vercel.app/?username=andy-austin&theme=onedark&rank=-?)
+
+---
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=onedark)
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -63,8 +66,6 @@
 - **Remote Work** experience across different time zones
 
 ---
-
-## 🤝 Let's Connect!
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/afgarabote)
 [![Medium](https://img.shields.io/badge/-Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@afgarabote)
