@@ -4,33 +4,25 @@
 
 - 🔭 Currently working as **Senior Software Engineer** through [LoudCrowd](https://loudcrowd.com) and [Howdy.com](https://howdy.com)
 - 🌱 Building React applications, custom Shopify extensions, and Python backend services
-- 💬 I write technical articles on [Medium](https://medium.com/@afgarabote) and [ScalablePath](https://www.scalablepath.com)
 - 📍 Available for remote opportunities worldwide
 - ⚡ Fun fact: I enjoy road trips and discovering new coffee shops
 
 ---
 
-## 🛠️ Tech Stack
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=default&hide_border=true)
 
-### 💻 Programming Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-### 🔧 Technologies & Frameworks
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Lit](https://img.shields.io/badge/-Lit-324FFF?style=flat-square&logo=lit&logoColor=white)
 ![Web Components](https://img.shields.io/badge/-Web%20Components-29ABE2?style=flat-square&logo=webcomponents.org&logoColor=white)
-
-### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
-### 🗄️ Databases & Tools
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -48,36 +40,22 @@
 
 ---
 
-## 🏆 GitHub Achievements
-  
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=andy-austin&show_icons=true&theme=default&hide_border=true&count_private=true)
+## 📝 Technical Articles
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=default&hide_border=true)
-
-## 📚 Featured Projects & Articles
-
-### 🔧 Open Source Projects
-
-**[lit-image-cropper](https://github.com/andy-austin/lit-image-cropper)** ⭐ 10 stars
-- Fast and easy image cropping web component built with Lit
-- **Tech:** TypeScript, Lit, Web Components, CSS
-- Modern, lightweight solution for image manipulation
-
-**[django-loan-payment-calculator](https://github.com/andy-austin/django-loan-payment-calculator)**
-- Django-based loan payment calculator with clean architecture
-- **Tech:** Python, Django, Financial Modeling, REST API
-- Demonstrates TDD and financial calculation algorithms
-
-### 📝 Technical Articles
-
-**[React Context API vs Redux](https://www.scalablepath.com/react/context-api-vs-redux)** 📚
+**[React Context API vs Redux](https://www.scalablepath.com/react/context-api-vs-redux)**
 - Published on ScalablePath technology blog
 - Comprehensive comparison of React state management solutions
 - Technical analysis of data flow patterns and implementation guidelines
 
+**[How to Create an Image Cropper with Lit](https://medium.com/@afgarabote/how-to-create-an-image-cropper-with-lit-d3a6c073b15f)**
+- Step-by-step guide to building interactive image cropping components
+- Demonstrates modern web components development with Lit framework
+- Covers canvas manipulation, drag-and-drop functionality, and responsive design
+
+
 ## 📈 Experience Highlights
 
-- **6+ years** of software engineering experience
+- **10+ years** of software engineering experience
 - **Microservices Architecture** design and implementation
 - **Cloud Platform** expertise (AWS, Google Cloud)
 - **Full-Stack Development** from frontend to backend
