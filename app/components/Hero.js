@@ -22,7 +22,7 @@ export default function Hero() {
           
           <p className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
             Breaking code, building features! Software engineer passionate about coding, coffee, and road trips. 
-            Skilled in Python, React, and Cloud technologies.
+            Skilled in Python, React, and Cloud technologies. I also write technical articles and share insights about software development.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

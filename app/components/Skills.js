@@ -22,6 +22,10 @@ export default function Skills() {
     {
       category: "Development Practices",
       skills: ["Code Review", "TDD", "Agile", "CI/CD", "Git"]
+    },
+    {
+      category: "Communication & Writing",
+      skills: ["Technical Writing", "Medium Articles", "Documentation", "Knowledge Sharing"]
     }
   ];
 
