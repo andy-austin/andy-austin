@@ -15,6 +15,45 @@ export default function Experience() {
         "Mentored team members on code quality and best practices",
         "Optimized system performance and scalability"
       ]
+    },
+    {
+      title: "Software Developer",
+      company: "Qubierto",
+      period: "Previous",
+      location: "Remote",
+      description: "Developed enterprise collaboration platform helping companies find and connect with skilled professionals. Built scalable web applications using modern technologies.",
+      highlights: [
+        "Developed enterprise collaboration platform",
+        "Built scalable web applications",
+        "Implemented user matching algorithms",
+        "Optimized database performance"
+      ]
+    },
+    {
+      title: "Software Developer",
+      company: "BiselMed",
+      period: "Previous",
+      location: "Remote",
+      description: "Contributed to healthcare technology solutions, developing medical software applications with focus on user experience and data security.",
+      highlights: [
+        "Developed healthcare technology solutions",
+        "Implemented secure medical software applications",
+        "Focused on user experience and data security",
+        "Collaborated with medical professionals on requirements"
+      ]
+    },
+    {
+      title: "Software Developer",
+      company: "Cuba VIP Travel",
+      period: "Previous",
+      location: "Remote",
+      description: "Developed travel management dashboard and booking system. Created user-friendly interfaces for travel planning and management.",
+      highlights: [
+        "Built travel management dashboard",
+        "Developed booking system functionality",
+        "Created user-friendly travel planning interfaces",
+        "Integrated with external travel APIs"
+      ]
     }
   ];
 

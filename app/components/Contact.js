@@ -6,6 +6,12 @@ import SocialLinks from './SocialLinks';
 export default function Contact() {
   const contactInfo = [
     {
+      title: "Email",
+      value: "afgarabote@gmail.com",
+      description: "Available for opportunities",
+      icon: "M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+    },
+    {
       title: "Location",
       value: "Montevideo, Uruguay",
       description: "UTC -03:00",
@@ -36,7 +42,7 @@ export default function Contact() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button 
-              href="mailto:contact@example.com" 
+              href="mailto:afgarabote@gmail.com" 
               variant="primary" 
               size="lg"
             >
