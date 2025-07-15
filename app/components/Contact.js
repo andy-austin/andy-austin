@@ -38,7 +38,7 @@ export default function Contact() {
   ];
 
   return (
-    <Section title="Get in Touch" id="contact" className="bg-gray-50">
+    <Section title="Get in Touch" id="contact" className="bg-gradient-to-b from-gray-50 to-blue-50">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-lg text-gray-600 mb-8">

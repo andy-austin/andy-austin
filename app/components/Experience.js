@@ -58,7 +58,7 @@ export default function Experience() {
   ];
 
   return (
-    <Section title="Experience" id="experience">
+    <Section title="Experience" id="experience" className="bg-gradient-to-b from-gray-50 to-white">
       <div className="space-y-6">
         {experiences.map((exp, index) => (
           <Card key={index} className="p-6" hover>

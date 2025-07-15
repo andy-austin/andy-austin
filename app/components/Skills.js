@@ -5,15 +5,15 @@ export default function Skills() {
   const skillCategories = [
     {
       category: "Programming Languages",
-      skills: ["Python", "TypeScript", "JavaScript", "React"]
+      skills: ["Python 🐍", "TypeScript", "JavaScript", "React ⚛️"]
     },
     {
-      category: "Technologies & Frameworks",
-      skills: ["React", "Web Components", "Lit", "Django", "Next.js"]
+      category: "Technologies & Frameworks", 
+      skills: ["React ⚛️", "Web Components", "Lit 🔥", "Django", "Next.js"]
     },
     {
       category: "Cloud & DevOps",
-      skills: ["Cloud Technologies", "Serverless Architecture", "Microservices"]
+      skills: ["Cloud Technologies ☁️", "Serverless Architecture ⚡", "Microservices"]
     },
     {
       category: "Architecture & Design",
@@ -25,7 +25,7 @@ export default function Skills() {
     },
     {
       category: "Communication & Writing",
-      skills: ["Technical Writing", "Medium Articles", "Documentation", "Knowledge Sharing"]
+      skills: ["Technical Writing ✍️", "Medium Articles 📝", "ScalablePath Publications 📚", "Documentation", "Knowledge Sharing"]
     }
   ];
 
@@ -37,7 +37,7 @@ export default function Skills() {
   ];
 
   return (
-    <Section title="Skills & Achievements" id="skills" className="bg-gray-50">
+    <Section title="Skills & Achievements" id="skills" className="bg-gradient-to-r from-blue-50 to-indigo-50">
       <div className="grid lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">
           <h3 className="text-xl font-bold text-gray-900 mb-6">Technical Skills</h3>

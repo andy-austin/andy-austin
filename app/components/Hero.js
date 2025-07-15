@@ -4,10 +4,34 @@ import Button from './Button';
 export default function Hero() {
   return (
     <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
-      <div className="max-w-6xl mx-auto px-4">
+      {/* Simple tech icons */}
+      <div className="absolute inset-0 pointer-events-none opacity-20">
+        <div className="absolute top-20 left-10">
+          <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center text-white text-xs font-bold shadow-lg">
+            React
+          </div>
+        </div>
+        <div className="absolute top-32 right-20">
+          <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center text-white text-lg font-bold shadow-lg">
+            JS
+          </div>
+        </div>
+        <div className="absolute bottom-20 left-20">
+          <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center text-white text-2xl shadow-lg">
+            🐍
+          </div>
+        </div>
+        <div className="absolute bottom-32 right-10">
+          <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center text-white text-lg font-bold shadow-lg">
+            TS
+          </div>
+        </div>
+      </div>
+      
+      <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white text-4xl font-bold">
+            <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 ring-4 ring-blue-200">
               AF
             </div>
           </div>

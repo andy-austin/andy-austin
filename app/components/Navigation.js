@@ -11,7 +11,7 @@ export default function Navigation() {
     { name: 'Experience', href: '#experience' },
     { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
+    { name: 'Work', href: '#projects' },
     { name: 'Contact', href: '#contact' }
   ];
 
