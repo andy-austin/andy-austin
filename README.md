@@ -8,5 +8,7 @@
 
 ⚡ Fun fact: I enjoy road trips and discovering new coffee shops
 
+<!-- 
 #
 # ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andy-austin&layout=compact&theme=onedark)
+-->
